@@ -1,0 +1,47 @@
+
+.dog{
+    position: fixed;
+    left: 10%;
+}
+.dog img{
+    height: 10rem;
+    width: 10rem;
+}
+.cat{
+    position: fixed;
+    right: 10%;
+}
+.cat img{
+    height: 10rem;
+    width: 10rem;
+}
+.start{
+    position: fixed;
+    left: 40%;
+}
+.fight{
+    width: 20rem;
+    left: 40%;
+}
+.fightdog{
+    position: fixed;
+    left: 40%;
+    width: 20rem;
+    display: none;
+
+
+
+}
+.fightcat{
+    position: fixed;
+    display: none;
+    left: 40%;
+    width: 20rem;
+
+}
+.wins{
+    position: fixed;
+    left: 40%;
+    width: 20rem;
+
+}

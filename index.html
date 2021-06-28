@@ -7,7 +7,26 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="dog" >
+        <span>health:</span><span class="doghealth"></span> <br>
+        <img src="./images/2680093-middle.png" alt="dog">
+    </div>
+    <div class="cat" >
+        <span>health:</span><span class="cathealth"></span> <br>
+        <img src="./images/980775-middle.png" alt="cat">
+    </div>
+    <div class="start">
+        <button class="fight" onclick="startgame()" >start fight</button>
+        <select name="fighter" id="fighter">
+            <option value="cat">cat</option>
+            <option value="dog">dog</option>
+        </select>
+    </div>
+    <div class="wins">
+        <button class="fightdog" onclick="attackdog(); change()">attackdog</button>
+        <button class="fightcat" onclick="attackcat(); change();">attackcat</button>    
+    </div>
 
-    <script src="index.js"></script>
+            <script src="index.js"></script>
 </body>
 </html>
